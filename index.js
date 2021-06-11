@@ -1,2 +1,8 @@
+var cars = ["BMW", "Volvo", "Saab", "Ford"];
+var i = 0;
+var text = "";
 
-console.log('o ce je kot');
+while (cars[i]) {
+  text += cars[i] + "<br>";
+  i++;
+}
