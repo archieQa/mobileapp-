@@ -1,8 +1,5 @@
-var cars = ["BMW", "Volvo", "Saab", "Ford"];
-var i = 0;
-var text = "";
+var x = 1;
+var y = 2;
+ 
 
-while (cars[i]) {
-  text += cars[i] + "<br>";
-  i++;
-}
+console.log(x + y);
